@@ -1,0 +1,102 @@
+body{
+    font-family: "Didot",sans-serif;
+    font-weight: 500;
+    margin: 0;
+}
+h1{
+    color:blue;
+    text-align:center;
+}
+button {
+    font-family: "Barlow", sans-serif;
+    font-weight: 600;
+    font-size: 13px;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+  }
+  /* section 1   */
+  .navigation{
+    width: 30%;
+  }
+  li{
+    text-decoration: none;
+  }
+#About-me {
+    display: flex;
+    padding: 35px;
+    justify-content: space-around;
+    align-items: center;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.168);
+  }
+  
+  .avatar {
+    border-radius: 50%;
+  }
+ 
+/*header*/
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.5);
+  }
+.liste1{
+    display: flex;
+    list-style:none;   
+    justify-content: space-around;
+    
+}
+.liste1 a:hover {
+    color: #a7bea9;
+    text-decoration: underline;
+  }
+/*Projects card*/
+#Project {
+    border-bottom: 1px solid rgba(0, 0, 0, 0.168)
+}
+/*#Project h3{
+    text-align: center;
+}*/
+.im{
+  width:300px;
+}
+.Projects-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.Project-card{
+    cursor: pointer;
+    width: 300px;
+    margin: 10px 15px;
+    border: 1px solid rgba (0, 0, 0, 0.171);
+}
+.Project-card:hover{
+    background-color: rgb(172, 122, 189);
+    transform: translateY(-4px);
+}
+.Project-card a {
+    color: rgb (61, 170, 221);
+    text-decoration: underline;
+}
+.Project-card p {
+    padding: 10px;
+}
+.portrait{
+  border-radius:50px;
+}
+.me{
+  display:flex ;
+  justify-content: space-around;
+  align-items: center;
+}
+.me > p{
+  width: 412px;
+} 
+
+#vido iframe{
+  
+  margin-left: 252px;
+  
+  
+}
